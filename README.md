@@ -144,6 +144,10 @@ PostgreSQL stores application data.
 ```text
 SupportSphere/
 │
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+│
 ├── supportsphere-frontend/
 │   ├── public/
 │   ├── src/
