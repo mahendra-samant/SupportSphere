@@ -10,6 +10,21 @@ Support requests are often managed through scattered emails, messages, and manua
 
 SupportSphere addresses this problem by providing a centralized support management platform where customers can raise tickets, agents can manage and resolve assigned issues, and administrators can monitor the overall support operation.
 
+## Screenshots
+
+### Login Page
+![SupportSphere Login](screenshots/login.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### Agent Dashboard
+![Agent Dashboard](screenshots/agent-dashboard.png)
+
+### Customer Dashboard
+![Customer Dashboard](screenshots/customer-dashboard.png)
+
+
 ## Key Features
 
 ### 1. Authentication and Role-Based Access Control
@@ -178,10 +193,9 @@ Install the following before running the application:
 
 ### 1. Clone the Repository
 
-```powershell
-git clone YOUR_GITHUB_REPOSITORY_URL
+```bash
+git clone https://github.com/mahendra-samant/SupportSphere.git
 cd SupportSphere
-```
 
 
 ### 2. Backend Setup
@@ -351,19 +365,7 @@ It automatically performs:
 
 The workflow runs on pushes to the main and master branches and on pull requests.
 
-## Screenshots
 
-### Login Page
-![SupportSphere Login](screenshots/login.png)
-
-### Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
-
-### Agent Dashboard
-![Agent Dashboard](screenshots/agent-dashboard.png)
-
-### Customer Dashboard
-![Customer Dashboard](screenshots/customer-dashboard.png)
 
 ## Development Highlights
 
