@@ -1,0 +1,34 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Django
+staticfiles/
+media/
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# Node.js / React
+supportsphere-frontend/node_modules/
+supportsphere-frontend/package-lock.json
+supportsphere-frontend/dist/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,121 @@
+.smart-triage {
+  margin-bottom: 22px;
+}
+.smart-triage-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.smart-triage-icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  border-radius: 12px;
+  color: #8b9cff;
+  background: rgba(111, 128, 255, 0.14);
+}
+.smart-triage-heading h3 {
+  margin: 0 0 5px;
+}
+.smart-triage-heading p,
+.triage-hint {
+  margin: 0;
+  color: var(--text-muted, #8993a7);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.smart-triage-fields {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 14px;
+}
+.smart-triage-fields label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: var(--text-secondary, #aab3c3);
+  font-size: 12px;
+  font-weight: 600;
+}
+.smart-triage-fields input,
+.smart-triage-fields textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--border-color, #293449);
+  border-radius: 9px;
+  background: var(--input-bg, #111b2b);
+  color: var(--text-primary, #eef2fa);
+  padding: 11px 12px;
+  font: inherit;
+  font-size: 13px;
+  resize: vertical;
+}
+.smart-triage-fields input:focus,
+.smart-triage-fields textarea:focus {
+  outline: 2px solid rgba(111, 128, 255, 0.35);
+  border-color: #7788ff;
+}
+.triage-result {
+  margin-top: 14px;
+  border: 1px solid rgba(111, 128, 255, 0.24);
+  border-radius: 10px;
+  padding: 13px 14px;
+  background: rgba(111, 128, 255, 0.055);
+}
+.triage-result-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 9px;
+}
+.triage-result-top strong {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+}
+.triage-result p {
+  margin: 5px 0;
+  font-size: 13px;
+}
+.triage-reason {
+  color: var(--text-muted, #8993a7);
+}
+.triage-priority {
+  border-radius: 999px;
+  padding: 4px 9px;
+  text-transform: capitalize;
+  font-size: 11px;
+  font-weight: 700;
+}
+.triage-critical {
+  color: #ffb4b4;
+  background: rgba(239, 68, 68, 0.16);
+}
+.triage-high {
+  color: #ffd29a;
+  background: rgba(245, 158, 11, 0.16);
+}
+.triage-medium {
+  color: #a9c7ff;
+  background: rgba(59, 130, 246, 0.16);
+}
+.triage-low {
+  color: #9fe4c0;
+  background: rgba(16, 185, 129, 0.16);
+}
+.triage-disclaimer {
+  margin: 12px 0 0;
+  color: var(--text-muted, #8993a7);
+  font-size: 11px;
+  line-height: 1.5;
+}
+@media (max-width: 760px) {
+  .smart-triage-fields {
+    grid-template-columns: 1fr;
+  }
+}
